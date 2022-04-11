@@ -1,0 +1,35 @@
+body {
+    height: 621px;
+    background-image: linear-gradient(180deg, rgb(1, 1, 160), rgb(196, 3, 3));
+}
+
+.header {
+    margin: 0;
+    font-family: Arial;
+    display: flex;
+    font-size: 112%;
+}
+
+.imglogo {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.topo{
+    padding-top: 33px;
+    display: flex;
+}
+
+.topo {
+    margin-left: 60%;
+    padding-top: 20px;
+}
+
+a {
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 12px;
+    border-radius: 12px;
+}
