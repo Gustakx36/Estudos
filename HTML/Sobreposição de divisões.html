@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobreposição de divisões</title>
+    <style> 
+        body {
+            height: 100%;
+            width: 100%;
+        }
+        .principal {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: red;
+        }
+        .alinhamento {
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: calc(50% - 150px);
+            left: calc(50% - 150px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .paragrafo-1 {
+            width: 60px;
+            height: 40px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            position: absolute;
+            right: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .paragrafo-2 {
+            width: 60px;
+            height: 40px;
+            background-color: rgb(255, 217, 2);
+            color: white;
+            position: absolute;
+            right: calc(300px - 260px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .paragrafo-3 {
+            width: 60px;
+            height: 40px;
+            background-color: rgb(47, 247, 7);
+            color: white;
+            position: absolute;
+            right: calc(300px - 210px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .paragrafo-4 {
+            width: 60px;
+            height: 40px;
+            background-color: rgb(14, 252, 220);
+            color: white;
+            position: absolute;
+            right: calc(300px - 160px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .paragrafo-5 {
+            width: 60px;
+            height: 40px;
+            background-color: rgb(255, 1, 192);
+            color: white;
+            position: absolute;
+            right: calc(300px - 110px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .paragrafo-6 {
+            width: 60px;
+            height: 40px;
+            background-color: rgb(189, 173, 247);
+            color: rgb(0, 0, 0);
+            position: absolute;
+            right: calc(300px - 60px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="principal"></div>
+        <div class="alinhamento">
+            <div class="paragrafo-1">
+                <p >Botão 1</p>
+            </div>
+            <div class="paragrafo-2">
+                <p >Botão 2</p>
+            </div>
+            <div class="paragrafo-3">
+                <p >Botão 1</p>
+            </div>
+            <div class="paragrafo-4">
+                <p >Botão 1</p>
+            </div>
+            <div class="paragrafo-5">
+                <p >Botão 1</p>
+            </div>
+            <div class="paragrafo-6">
+                <p >Botão 1</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
